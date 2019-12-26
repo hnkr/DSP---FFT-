@@ -13,7 +13,7 @@
     - ./fft_radix2
 
 ## Working Principle
-- It uses hardcoded sample_buf as the input / source to the FFT calculation.
+- It uses hardcoded sample_buf as the input / source to the FFT calculation.By default, all the imaginary part of samples are zero which is also called as real-fft.
 - You only need to change the values of "buf" in main.c and  the value of "SAMPLE_BUF_SIZE" in fft_radix2.h to update sample count.
 - It does not do padding automatically so you should pay attention to send an input source whose length is power-of-two.
 
