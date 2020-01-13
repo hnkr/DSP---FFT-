@@ -6,8 +6,8 @@
 - Ubuntu OS
 - gcc
 
-## Compile & Run
-- Compile:
+## Build & Run
+- Build:
     - gcc fft_radix2.c main.c -o fft_radix2 -lm
 - Run:
     - ./fft_radix2
